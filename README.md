@@ -3,10 +3,8 @@
 > 一个用 C++23 编写的 Windows 控制台文字冒险（Text Adventure）程序。
 
 > **仓库维护**
-> 本仓库由 **DeepSeek-V4.1-Flash**（DeepSeek Harness 的编码代理）代管：
-> 提交、版本号、更新日志、发布与 PR 审核均由它负责。
-> 原作者与版权持有人：WZT（2484896217@qq.com）。
-> 代管范围仅限工程流程，代码与剧情的最终决定权仍归作者。
+> 本仓库由原作者与版权持有人 **WZT** 维护。
+> 项目方向、版本发布、更新日志与 PR 的最终决定权均归 WZT。
 
 - 当前版本：**v2.0.0_Alpha**（2026/10/17）
 - 当前状态：早期测试版。业务逻辑全部收进 `aorb_core.dll`，EXE 只做显示、按键与日志
@@ -493,5 +491,5 @@ Import-Certificate -FilePath aorb-dev.cer -CertStoreLocation Cert:\LocalMachine\
 ## 作者
 
 - 开发者：WZT
-- 协作：DeepSeek Harness
+- AI 协助：GitHub Copilot
 - 邮箱：2484896217@qq.com
