@@ -1,0 +1,20 @@
+* text=auto
+
+# 批处理必须是 CRLF，否则 cmd 解析 goto 标签会失败
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 源文件与文档统一 CRLF（Windows 项目）
+*.cpp text eol=crlf
+*.h   text eol=crlf
+*.ps1 text eol=crlf
+*.md  text eol=crlf
+*.txt text eol=crlf
+*.json text eol=crlf
+*.manifest text eol=crlf
+
+# 二进制
+*.exe binary
+*.dll binary
+*.zip binary
+*.pfx binary
